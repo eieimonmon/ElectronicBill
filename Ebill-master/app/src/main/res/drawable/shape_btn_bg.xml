@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/vew_corner_regular"/>
+            <solid android:color="@color/button_success_pressed"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <corners android:radius="@dimen/vew_corner_regular"/>
+            <solid android:color="@color/button_success_pressed"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <corners android:radius="@dimen/vew_corner_regular"/>
+            <solid android:color="@color/button_success_normal"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/vew_corner_regular"/>
+            <solid android:color="@color/color_all_button_disabled"/>
+        </shape>
+    </item>
+</selector>

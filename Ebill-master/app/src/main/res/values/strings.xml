@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Electricity bill</string>
+
+
+    <string name="used_unit">Used unit</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="info_fill_input">..</string>
+    <string name="info_placeholder">…</string>
+
+    <string name="label_description">Used unit</string>
+    <string name="label_unit_price">Unit price</string>
+    <string name="label_sub_total_cost">Total cost</string>
+    <string name="label_description_total_cost">..</string>
+
+</resources>
